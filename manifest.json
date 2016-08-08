@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Promote My Ass",
+  "description": "This extension hides promoted tweets",
+  "version": "1.0",
+
+  "background": {"page": "background.html"},
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [ {
+    "js": ["jquery-3.1.0.min.js", "background.js"],
+    "matches": [ "http://twitter.com/*","https://twitter.com/*"]
+  }]
+}
