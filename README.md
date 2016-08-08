@@ -6,4 +6,4 @@ Instructions:
 - activate developer mode
 - load unpacked extension
 - point to folder
-- enojoy twitter without promoted ads
+- enojy twitter without promoted ads
