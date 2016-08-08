@@ -5,5 +5,5 @@ Instructions:
 - git clone repo
 - open chrome settings > extensions
 - activate developer mode
-- load unpacked extension (point to git folder)
+- load unpacked extension (point to PromoteMyAss folder)
 - enjoy twitter without promoted ads
