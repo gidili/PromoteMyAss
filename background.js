@@ -1,6 +1,7 @@
 $(function() {
 	var hidePromoted = function(){
 		$('.js-promoted-badge').closest('.tweet').hide();
+		$('li.promoted-trend').hide();
 		console.log('hiding promoted tweets!');
 	}
 	
